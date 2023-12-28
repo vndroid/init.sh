@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+## Author: vndroid
+## Github: https://github.com/vndroid/init.sh.git
+
 command -v dpkg >/dev/null 2>&1 || { echo >&2 "Error: Not Support Current OS!"; exit 1; }
 command -v dh_make >/dev/null 2>&1 || { echo >&2 "Error: Command 'dh_make' not found, Please install 'dh-make' package."; exit 1; }
 
